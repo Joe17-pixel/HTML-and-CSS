@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgreen;
+    justify-content: center;
+
+}
+
+nav a {
+    float: left;
+}
+
+
+    
+
+nav a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: darkgreen;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-weight: 400;
+    color: darkgreen;
+    text-align: justify;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    color: darkgreen;
+    text-align: justify;
+
+}
+
+input[type=submit] {
+    background-color: lightgreen;
+    border: none;
+    color: darkgreen;
+    padding: 17px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 5px 3px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+
+}
+
+input[type=submit]:hover {
+    background-color: yellowgreen;
+
+}
+
+table, th, td {
+    border: 1px;
+    background-color: yellowgreen;
+
+}
+
+table, th {
+    background: -moz-repeating-linear-gradient();
+}
